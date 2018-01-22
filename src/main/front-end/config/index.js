@@ -4,7 +4,7 @@ var path = require('path')
 module.exports = {
   build: {
     env: require('./prod.env'),
-    index: path.resolve(__dirname, '../dist/index.ftl'),
+    index: path.resolve(__dirname, '../dist/index.html'),
     //index: path.resolve(__dirname, '../../resources/templates/index.ftl'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     //assetsRoot: path.resolve(__dirname, '../../resources/static'),
